@@ -22,7 +22,7 @@ def handle_client(conn):
 
     try:
         username = conn.recv(1024).decode('utf8')
-        welcome = 'Welcome %s! If you ever want to quit, type {quit} to exit.' % username
+        welcome = 'Welcome %s! To quit, type {quit} to exit.' % username
         conn.send(bytes(welcome, "utf8"))
         print('|-[name set to : %s]' % username)
         msg = "%s has joined the chat" % username
