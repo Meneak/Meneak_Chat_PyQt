@@ -1,0 +1,11 @@
+** Welcome to Meneak Chat **
+
+Initial write by: Meneak
+Status: OpenSource - use, modify, change, whatever you want really. :D enjoy.
+Description: Written simple and quick to chat with some friends.
+
+Used Python 3.9, PyQt5, socket, threading, sys
+
+Notes:
+
+I am still working on it... was a new project for me as entry level developer. Had fun with the project.
